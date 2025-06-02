@@ -1,0 +1,76 @@
+---
+---
+
+@import "minima";
+
+/*Overriding styles*/
+h1, h2, h3, h4 {
+  color: #FF4633;
+}
+
+a, a:visited, a:hover{
+  color: #2C9FB4;
+}
+
+.site-header {
+  border-top: 0px;
+}
+
+.site-title {
+  color: #FF4633 !important;
+}
+
+.site-nav .trigger .page-link {
+  color: #FF4633;
+}
+
+/*clearfix hack*/
+.grouping:before,
+.grouping:after {
+  visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+
+.medium-articles {
+  margin-bottom: 50px;
+}
+
+/*About Page*/
+.image-container {
+  width: 250px;
+  height: 250px;
+  margin: 0 auto;
+}
+
+/* Adjusted styles for vertically scrollable code blocks */
+.highlight > pre {
+  overflow-y: auto;
+  max-height: 500px; /* Adjust the height as needed */
+}
+
+/* Add this to your CSS file */
+.aside {
+  background-color: #f9f9f9;
+  border-left: 5px solid #ccc;
+  margin: 1em 0;
+  padding: 0.5em 10px;
+  color: #333;
+}
+
+/* Custom styling for code highlight sections */
+div.highlighter-rouge {
+  background-color: transparent; /* Remove background color */
+}
+div.highlighter-rouge .highlight {
+  background-color: transparent;
+}
+div.highlighter-rouge code {
+  background-color: transparent;
+}
+div.highlighter-rougue > div.highlight > pre.highlight {
+  border: 3px solid #ccc;
+}
