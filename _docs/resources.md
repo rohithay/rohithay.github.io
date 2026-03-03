@@ -33,6 +33,7 @@ my-portfolio/
 ├── _config.yml       ← Site settings (name, bio, social links)
 ├── _posts/           ← Your blog posts go here
 ├── _layouts/         ← HTML templates
+├── _includes/        ← Your reusable HTML code snippets
 ├── assets/           ← Images, CSS, JS
 ├── index.md          ← Homepage or main content
 └── about.md          ← About page
