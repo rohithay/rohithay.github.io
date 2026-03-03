@@ -27,7 +27,7 @@ markdown: kramdown
 kramdown:
   input: GFM
   syntax_highlighter: rouge
-theme: jekyll-theme-chirpy
+theme: minima
 plugins:
   - jekyll-feed
   - jekyll-gist
@@ -42,7 +42,3 @@ defaults:
 #   - Gemfile
 #   - Gemfile.lock
 #   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
