@@ -6,13 +6,13 @@ categories: [AI, LangChain]
 tags: [RAG, vectors, embeddings]
 ---
 
-# Introduction
+## Introduction
 
 Continuing on with stuff I've read in [Database Internals by Alex Petrov](https://www.amazon.in/Database-Internals-Deep-Distributed-Systems/dp/B0BQZDBLFT/ref=sr_1_3?crid=14R5IECX72V1F&keywords=database+internals&qid=1694361608&sprefix=database+internals%2Caps%2C235&sr=8-3), I wanted to look at 2PC today.
 
 This is a fairly common approach to handling distributed transactions so this will be a fairly short blog post. I used this as more of an exercise to write some Go code for the very first time more than anything else.
 
-# Problem
+## Problem
 
 Imagine you have a distributed key value store. I love taking the example of a distributed key value store because it's simple enough to understand that you don't get lost in the weeds of trying to figure out the system you're building 2PC for and just focus on 2PC itself.
 
