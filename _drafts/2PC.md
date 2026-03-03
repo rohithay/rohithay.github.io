@@ -1,7 +1,9 @@
 ---
 layout: post
-title: "2PC"
-category: databases
+title: "Building a RAG Pipeline with LangChain"
+date: 2024-03-01
+categories: [AI, LangChain]
+tags: [RAG, vectors, embeddings]
 ---
 
 # Introduction
