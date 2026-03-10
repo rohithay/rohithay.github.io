@@ -9,4 +9,9 @@ tags: [RAG, vectors, embeddings]
 ## Introduction
 Hi!
 
+Understanding workflows vs. autonomous agents
+- Latency
+- Cost/Token usage
+- Reliability
+
 # Conclusion
