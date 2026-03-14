@@ -51,4 +51,12 @@ Understanding workflows vs. autonomous agents
 * Can subtasks be processed independently and simultaneously, and would faster completion help? Consider parallel workflows.
 * Does quality improve meaningfully with iterative refinement? Consider evaluator-optimizer patterns.
 
+## Choose based on your task
+
+One-shot LLM - Quick questions, text generation, explanations, no tools needed
+Tool use - Needs current data, simple calculations, one external call
+ReAct loop - Multi-step problems, needs iteration, can fail and retry, most coding tasks
+Planning pattern - Complex architecture, multiple files, clear stages, dependencies between steps
+Ralph pattern - Large scale (100+ files), mechanical work, clear success criteria, can run for hours
+
 # Conclusion
