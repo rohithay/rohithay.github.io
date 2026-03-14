@@ -18,6 +18,10 @@ A workflow provides structure: it establishes overall flow, defines checkpoints,
 
 A workflow pattern gives you agent intelligence within each step, and a predictable process flows across the entire task.
 
+* Agentic loop (ReAct): For iterative problem-solving
+* Planning: For complex multi-step tasks
+* Ralph: For autonomous large-scale work
+
 ### Sequential Pattern
 When: For executing tasks in a fixed order.
 
